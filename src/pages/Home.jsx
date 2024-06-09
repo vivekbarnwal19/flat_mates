@@ -21,6 +21,8 @@ function Home(){
         <ConnectwithUs />
         <PremiumProperties />
         <Deposit />
+
+        
         <Cities />
         
         <Article />
