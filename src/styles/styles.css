@@ -1,0 +1,47 @@
+body{
+    min-width: 1200px;
+}
+.heading{
+    font-size: 24px;
+}
+.myteam{
+    display: flex;
+    /* gap: 6px; */
+    background-color: rgb(240, 233, 233);
+    border-radius: 16px;
+    font-size: 14px;
+    min-width: 120px;
+    padding: 4px 10px;
+    font-weight: 400;
+}
+.add-listing{
+    display: flex;
+    background-color: rgb(255, 237, 146);
+    border-radius: 16px;
+    min-width: 120px;
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.free{
+    position: absolute;
+    top: 16px;
+    left: 1330px;
+    background-color: green;
+    min-width: 40px;
+    color: white;
+    padding: 1px 6px;
+    border-radius: 12px;
+    font-weight: 500;
+}
+.findflatemateheading{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.searchsection{
+display: flex;
+}
+span{
+    border-bottom: solid;
+}
