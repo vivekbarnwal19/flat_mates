@@ -22,6 +22,7 @@ function Home(){
         <PremiumProperties />
         <Deposit />
         <Cities />
+        
         <Article />
         <Footer />
         </div>
