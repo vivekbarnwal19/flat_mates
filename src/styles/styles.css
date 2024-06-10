@@ -39,9 +39,5 @@ body{
    justify-content: center;
    align-items: center;
 }
-.searchsection{
-display: flex;
-}
-span{
-    border-bottom: solid;
-}
+
+

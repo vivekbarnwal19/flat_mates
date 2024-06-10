@@ -6,20 +6,24 @@ function SearchPlaces() {
   return (
     <div className="">
 
-      <div className='searchsection'>
-        <img src={LocationIcon} width={"30"} height={"30"} alt="" />
-        <input
-          type="text"
-          // onChange={handleChange}
-          name="search"
-          placeholder="Search Places..."
+      <div className='flex justify-center pt-20 '>
+        <div className='flex justify-center relative'>
+          <img src={LocationIcon} width={"25"} height={"25"} className='absolute right-[280px]' alt="" />
+          <input
+            type="text"
+            // onChange={handleChange}
+            name="search"
+            placeholder="Search Places..."
 
-        />
+          />
+        </div>
       </div>
-
-      <p>Top Cities: <span>Banglore,</span> <span>Hydrabad,</span> <span>Pune,</span> </p>
-
-      <img src={RoommateIcon}  alt="" />
+      <div className='mt-8'>
+        <p className='flex justify-center '>Top Cities: <p className='cursor-pointer'>Banglore, Hydrabad , Pune  </p> </p>
+      </div>
+      <div className='flex justify-center mt-20'>
+        <img src={RoommateIcon}  alt="" />
+      </div>
     </div>
   )
 }

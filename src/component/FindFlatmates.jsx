@@ -8,10 +8,10 @@ function FindFlatmates(){
             </div>
             
             <div className="findflatemateheading">
-                <p className="text-4xl mt-20">Find Compatible FlatMates, Rooms & PGs</p>
+                <p className="max-w-lg text-4xl mt-20 font-medium">Find Compatible FlatMates <p className="flex justify-center">Rooms & PGs</p> </p>
             </div>
 
-            <p className="flex justify-center font-thin ">Share your room with right roommates</p>
+            <p className="flex justify-center font-thin text-lg mt-10 ">Share your room with right roommates</p>
            
         </div>
     )

@@ -9,7 +9,7 @@ function Header() {
         <div className="max-w-6xl flex items-center justify-between mr-auto ml-auto w-11/12 mt-6">
             
         
-            <p className="heading relative">Flat<span className="text-green-600 font-semibold">Mates</span>
+            <p className="heading relative cursor-pointer">Flat<span className="text-green-600 font-semibold">Mates</span>
             <img src={RIcon} height={15} width={15} alt=""  className="absolute left-[102px] top-1"/>
             </p>
             
