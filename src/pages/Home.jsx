@@ -7,7 +7,7 @@ import ConnectwithUs from "../component/ConnectwithUs";
 import PremiumProperties from "../component/PremiumProperties";
 import Deposit from "../component/Deposit";
 import Cities from "../component/Cities";
-import Article from "../component/Article";
+// import Article from "../component/Article";
 import Footer from "../component/Footer";
 import '../styles/styles.css'
 
@@ -25,7 +25,7 @@ function Home(){
         
         <Cities />
         
-        <Article />
+        {/* <Article /> */}
         <Footer />
         </div>
     )
