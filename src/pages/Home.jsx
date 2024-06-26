@@ -10,23 +10,43 @@ import Cities from "../component/Cities";
 // import Article from "../component/Article";
 import Footer from "../component/Footer";
 import '../styles/styles.css'
+import RentalForm from "../component/RentalForm";
+import { useState } from "react";
+import DepositeButton from "../component/DepositeButton";
+import { Dialog } from "@mui/material";
+import RentalFormClick from "../component/RentalFormClick";
+import OwnerDetail from "../component/OwnerDetail";
+import TenantDetails from "../component/TenantDetails";
+import PropertyDetail from "../component/PropertyDetail";
+import AgreementTerms from "../component/AgreementTerms";
+import Annexures from "../component/Annexures";
+import PremiumPropertiesButton from "../component/PremiumPropertiesButton";
+import PremiumPropertiesButtonClick from "../component/PremiumPropertiesButtonClick";
 
 function Home(){
+
+   
+   
     return(
         <div>
+            
         <Header />
+        
         <FindFlatmates />
         <SearchPlaces />
         <RentalAgreement />
         <ConnectwithUs />
         <PremiumProperties />
         <Deposit />
-
-        
         <Cities />
         
         {/* <Article /> */}
-        <Footer />
+        <Footer />        
+        <DepositeButton />
+        <RentalFormClick />
+        <PremiumPropertiesButton />
+        <PremiumPropertiesButtonClick />
+       
         </div>
     )
 }

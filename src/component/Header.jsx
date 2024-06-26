@@ -3,7 +3,7 @@ import MyTeamIcon from '../assets/user-management-13.png'
 import AddListingIcon from '../assets/plus_icon-icons.com_66718.png'
 import AvatarIcon from '../assets/man_person_people_avatar_icon_230017.png'
 import RIcon from '../assets/png-transparent-registered-trademark-symbol-service-mark-copyright-r-miscellaneous-text-trademark-thumbnail.png'
-
+import RentalAgreement from "./RentalAgreement";
 function Header() {
     return (
         <div className="max-w-6xl flex items-center justify-between mr-auto ml-auto w-11/12 mt-6">
